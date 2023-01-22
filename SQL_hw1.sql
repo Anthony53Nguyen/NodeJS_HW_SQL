@@ -166,6 +166,6 @@ SELECT FoodName, avg(SubPrice) as AVG_SubFood
 FROM Food
 LEFT JOIN SubFood
 ON  Food.FoodId = SubFood.FoodId
-GROUP BY  FoodName
+GROUP BY  FoodName;
 
 
